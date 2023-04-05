@@ -23,15 +23,15 @@ msgstr "Architektur"
 
 #: src/Common/LinuxKernel.vala:132
 msgid "Running kernel"
-msgstr "Laufender kernel"
+msgstr "Laufender Kernel"
 
 #: src/Common/LinuxKernel.vala:253
 msgid "loading cached"
-msgstr "laden gecached"
+msgstr "Laden aus dem Cache"
 
 #: src/Common/LinuxKernel.vala:267
 msgid "queuing download"
-msgstr "download der warteschlange"
+msgstr "Download der Warteschlange hinzugefügt"
 
 #: src/Common/LinuxKernel.vala:290
 msgid "Fetching individual kernel indexes"
@@ -51,7 +51,7 @@ msgstr "OK"
 
 #: src/Common/LinuxKernel.vala:352
 msgid "FAILED"
-msgstr "MISSLUNGEN"
+msgstr "FEHLGESCHLAGEN"
 
 #: src/Common/LinuxKernel.vala:395
 msgid "Found installed"
@@ -88,11 +88,11 @@ msgstr "Verfügbare Kernel"
 
 #: src/Common/LinuxKernel.vala:941
 msgid "enabled"
-msgstr "ermöglichte"
+msgstr "Aktiviert"
 
 #: src/Common/LinuxKernel.vala:965
 msgid "Downloading"
-msgstr "Laden"
+msgstr "Herunterladen"
 
 #: src/Common/LinuxKernel.vala:986
 msgid "is already installed."
@@ -100,7 +100,7 @@ msgstr "ist bereits installiert."
 
 #: src/Common/LinuxKernel.vala:1016
 msgid "Uninstalling selected kernels"
-msgstr "Deinstallation des angegebenen Kernels"
+msgstr "Deinstallation des ausgewählten Kernels"
 
 #: src/Common/LinuxKernel.vala:1022
 msgid "requested"
@@ -108,11 +108,11 @@ msgstr "angefordert"
 
 #: src/Common/LinuxKernel.vala:1025
 msgid "not uninstalling the currently running kernel"
-msgstr "Den aktuell laufenden Kernel wird nicht deinstalliert"
+msgstr "Der aktuell laufende Kernel wird nicht deinstalliert"
 
 #: src/Common/LinuxKernel.vala:1041
 msgid "found"
-msgstr "gründen"
+msgstr "gefunden"
 
 #: src/Common/LinuxKernel.vala:1044
 msgid "No packages to un-install!"
@@ -154,13 +154,13 @@ msgstr "Kernel-Version %s installieren? (j/n):"
 
 #: src/Common/Main.vala:351
 msgid "Called from"
-msgstr "Angerufen von"
+msgstr "Aufgerufen von"
 
 #: src/Common/Main.vala:352
 msgid ""
 "This file is over-written and executed again whenever settings are saved in"
 msgstr ""
-"Diese Datei wird überschrieben und erneut ausgeführt, wenn Einstellungen in"
+"Diese Datei wird überschrieben und erneut ausgeführt beim Speichern der Einstellungen in"
 
 #: src/Common/Main.vala:384
 msgid "Notifications are disabled"
@@ -186,7 +186,7 @@ msgstr "Nach Kernel-Updates suchen"
 #: src/Console/AppConsole.vala:52
 msgid "Check for kernel updates and notify current user"
 msgstr ""
-"Prüfung auf Kernel-Updates und Benachrichtigung des aktuellen Benutzers"
+"Prüfung auf Kernel-Updates und benachrichtige aktuellen Benutzer"
 
 #: src/Console/AppConsole.vala:53
 msgid "List all available mainline kernels"
@@ -210,19 +210,19 @@ msgstr "Angegebenen Mainline-Kernel installieren"
 
 #: src/Console/AppConsole.vala:58
 msgid "Uninstall specified kernel"
-msgstr "Deinstallation des angegebenen Kernels"
+msgstr "Deinstalliere die ausgewählten Kernel"
 
 #: src/Console/AppConsole.vala:59 src/Gtk/MainWindow.vala:328
 msgid "Uninstall all but the highest installed version"
-msgstr "Deinstallieren Sie alle bis auf die höchste installierte Version"
+msgstr "Deinstalliere alle bis auf die höchste installierte Version"
 
 #: src/Console/AppConsole.vala:60
 msgid "Download specified kernels"
-msgstr "Herunterladen bestimmter Kernel"
+msgstr "Herunterladen ausgewählter Kernel"
 
 #: src/Console/AppConsole.vala:61
 msgid "Delete cached info about available kernels"
-msgstr "Löschen zwischengespeicherter Informationen über verfügbare Kernel"
+msgstr "Lösche zwischengespeicherte Informationen über verfügbare Kernel"
 
 #: src/Console/AppConsole.vala:63 src/Gtk/AppGtk.vala:138
 msgid "Options"
@@ -250,7 +250,7 @@ msgstr "Eine Versionszeichenfolge aus der Ausgabe von --list"
 
 #: src/Console/AppConsole.vala:72
 msgid "One or more, comma-seperated"
-msgstr "Ein oder mehrere, durch Kommas getrennte"
+msgstr "Ein oder mehrere, durch Kommas getrennt"
 
 #: src/Console/AppConsole.vala:73
 msgid "The currently running kernel will always be ignored"
@@ -306,11 +306,11 @@ msgstr "Kernel %s verfügbar"
 
 #: src/Console/AppConsole.vala:343 src/Gtk/SettingsDialog.vala:166
 msgid "Show"
-msgstr "Zeigen"
+msgstr "Zeige"
 
 #: src/Console/AppConsole.vala:344 src/Gtk/MainWindow.vala:296
 msgid "Install"
-msgstr "Installieren"
+msgstr "Installiere"
 
 #: src/Console/AppConsole.vala:347
 msgid "Previously notified"
@@ -346,11 +346,11 @@ msgstr "Übersetzer"
 
 #: src/Gtk/AboutWindow.vala:236
 msgid "Documenters"
-msgstr "Dokumentierer"
+msgstr "Dokumentatoren"
 
 #: src/Gtk/AboutWindow.vala:244
 msgid "Third Party Inclusions"
-msgstr "Einschlüsse von Drittparteien"
+msgstr "Einbindungen von Drittparteien"
 
 #: src/Gtk/AppGtk.vala:136
 msgid "options"
@@ -386,7 +386,7 @@ msgstr "Alte deinstallieren"
 
 #: src/Gtk/MainWindow.vala:333
 msgid "Reload"
-msgstr "Nachladen"
+msgstr "Neu laden"
 
 #: src/Gtk/MainWindow.vala:334
 msgid ""
@@ -408,7 +408,7 @@ msgstr "Über"
 
 #: src/Gtk/MainWindow.vala:349
 msgid "Exit"
-msgstr "Ausgang"
+msgstr "Beenden"
 
 #: src/Gtk/MainWindow.vala:418
 msgid "Kernel upgrade utility for Ubuntu-based distributions"
@@ -416,7 +416,7 @@ msgstr "Kernel-Upgrade-Dienstprogramm für Ubuntu-basierte Distributionen"
 
 #: src/Gtk/MainWindow.vala:419
 msgid "Forked"
-msgstr "Gegabelte"
+msgstr "Forked"
 
 #: src/Gtk/MainWindow.vala:419
 msgid "Original"
@@ -445,11 +445,11 @@ msgstr "Benachrichtigung"
 
 #: src/Gtk/SettingsDialog.vala:66
 msgid "Notify if a major release is available"
-msgstr "Benachrichtigen, wenn eine größere Version verfügbar ist"
+msgstr "Benachrichtigen, wenn eine Hauptversion verfügbar ist"
 
 #: src/Gtk/SettingsDialog.vala:75
 msgid "Notify if a point release is available"
-msgstr "Benachrichtigen, wenn eine Punktfreigabe verfügbar ist"
+msgstr "Benachrichtigen, wenn eine Punktversion verfügbar ist"
 
 #: src/Gtk/SettingsDialog.vala:86
 msgid "Seconds interval enabled for debugging"
@@ -457,7 +457,7 @@ msgstr "Sekundenintervall für das Debuggen aktiviert"
 
 #: src/Gtk/SettingsDialog.vala:109
 msgid "Check every"
-msgstr "Prüfen Sie jede"
+msgstr "Prüfe jede"
 
 #: src/Gtk/SettingsDialog.vala:134
 msgid "Hours"
@@ -481,7 +481,7 @@ msgstr "Filter"
 
 #: src/Gtk/SettingsDialog.vala:155
 msgid "Hide unstable and RC releases"
-msgstr "Unstable- und RC-Versionen ausblenden"
+msgstr "Instabile- und RC-Versionen ausblenden"
 
 #: src/Gtk/SettingsDialog.vala:177
 msgid "previous major versions  ( -1 = all )"
@@ -489,7 +489,7 @@ msgstr "vorherige Hauptversionen  ( -1 = alle )"
 
 #: src/Gtk/SettingsDialog.vala:181
 msgid "Network"
-msgstr "Netz"
+msgstr "Netzwerk"
 
 #: src/Gtk/SettingsDialog.vala:192
 msgid "Internet connection timeout in"
@@ -505,11 +505,11 @@ msgstr "Maximale Anzahl gleichzeitiger Downloads"
 
 #: src/Gtk/SettingsDialog.vala:225
 msgid "Verify Checksums with the CHECKSUMS files"
-msgstr "Überprüfen von Prüfsummen mit den PRÜFSUMMEN-Dateien"
+msgstr "Überprüfe Prüfsummen mit den PRÜFSUMMEN-Dateien"
 
 #: src/Gtk/SettingsDialog.vala:233
 msgid "Proxy"
-msgstr "Stellvertreter"
+msgstr "Proxy"
 
 #: src/Gtk/l.gtk.vala:29
 msgid "Missing Icon"
@@ -517,4 +517,4 @@ msgstr "Fehlendes Symbol"
 
 #: src/lib/l.misc.vala:71
 msgid "Can not reach site"
-msgstr "Fehler beim lesen der Datei"
+msgstr "Seite nicht erreichbar"
